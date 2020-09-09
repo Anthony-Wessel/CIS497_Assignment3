@@ -10,7 +10,6 @@ public class DetectCollisionsX : MonoBehaviour
         if (other.CompareTag("Dog"))
         {
             DisplayScore.score++;
-            Destroy(other.gameObject);
             Destroy(gameObject);
         }
         
